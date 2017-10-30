@@ -15,11 +15,21 @@ img {
  width:32px;
 }
 
+.title {
+  border-bottom: 1px solid;
+}
 
 .flex-container {
   display: flex;
   align-items: center;
   margin-bottom:10px;
+  width: 80%;
+
+}
+
+.wrapper {
+  width: 20%;
+  float: right;
 
 }
 .text-item {
@@ -31,11 +41,13 @@ img {
   width:55px;
 }
 
-.flex-container:nth-child(odd) {
-  background-color: #F1F1F1;
-}
-
 .search-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 20px;
+  margin-left: 4rem;
+}
+
+.flex-container:nth-child(odd) {
+  background-color: #F1F1F1;
 }
