@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+body {
+  margin:40px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+img {
+ height: auto;
+ width:32px;
+}
+
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-bottom:10px;
+
+}
+.text-item {
+  padding-top:4px;
+  padding-bottom:4px;
+}
+
+.image-item {
+  width:55px;
+}
+
+.flex-container:nth-child(odd) {
+  background-color: #F1F1F1;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
